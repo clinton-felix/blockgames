@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = https://github.com/clinton-felix/blockgames
+[http]
+	corsProxy = https://corsproxy.remixproject.org/
+[branch "main"]
+	merge = refs/heads/main
+	remote = origin
+[remote "blockgames"]
+	fetch = +refs/heads/*:refs/remotes/blockgames/*
+	url = https://github.com/clinton-felix/blockgames
